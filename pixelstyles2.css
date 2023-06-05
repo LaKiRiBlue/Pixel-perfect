@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight:500;
+  }
+  .whole {
+    width: 100vh;
+    height: 80vh;
+    background-color: gainsboro;
+    border: 10px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+.first {
+    
+    width: 97vh;
+    height: 22vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    
+    align-content: center;
+    align-items: center;
+    font-size: 30px;
+    text-align: center;
+}
+.second {
+    width: 97vh;
+    height: 34vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    
+    align-content: center;
+    align-items: center;
+    
+
+}
+p2 {
+    font-size: 40px;
+    font-weight: bolder;
+}
+p3 {
+    font-size: 28px;
+    color: rgb(33, 197, 33);
+}
+#demo {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+}
+.third {
+    width: 97vh;
+    height: 20vh;
+    background-color: rgb(8, 8, 8);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    
+    align-content: center;
+    align-items: center;
+
+}
+.btn {
+    width: 50vh;
+    height: 10vh;
+    background-color: rgb(240, 209, 4);
+    border-radius: 15px;
+    font-size: 30px;
+    font-weight: bold;
+}
+  
+
+
